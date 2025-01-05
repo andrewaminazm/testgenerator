@@ -1,0 +1,42 @@
+[
+  {
+    "Test Case ID": 1,
+    "Title": "Valid login credentials",
+    "Steps": [
+      "Enter valid username",
+      "Enter valid password",
+      "Click on the login button"
+    ],
+    "Expected Results": "User should be successfully logged in and redirected to the account page"
+  },
+  {
+    "Test Case ID": 2,
+    "Title": "Invalid login credentials",
+    "Steps": [
+      "Enter invalid username",
+      "Enter invalid password",
+      "Click on the login button"
+    ],
+    "Expected Results": "User should see an error message indicating invalid credentials"
+  },
+  {
+    "Test Case ID": 3,
+    "Title": "Blank username",
+    "Steps": [
+      "Leave username field blank",
+      "Enter valid password",
+      "Click on the login button"
+    ],
+    "Expected Results": "User should see an error message indicating username field is required"
+  },
+  {
+    "Test Case ID": 4,
+    "Title": "Blank password",
+    "Steps": [
+      "Enter valid username",
+      "Leave password field blank",
+      "Click on the login button"
+    ],
+    "Expected Results": "User should see an error message indicating password field is required"
+  }
+]
